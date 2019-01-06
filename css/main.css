@@ -30,7 +30,7 @@ header,main,footer{
  	display: flex;
     justify-content: space-between;
     padding: 1em 0.2em;
-    border-bottom: 5px solid #ffa500d6 ;
+    border-bottom: 5px solid rgba(255, 165, 0, 0.82) ;
     margin-top: 8px;
 }
 
@@ -39,7 +39,7 @@ header,main,footer{
 }
 
 .title h1 ,  h3{
-	color: #177e9ed6;
+	color:rgba(23, 126, 158, 0.85);
 }
 
 .title h1{
