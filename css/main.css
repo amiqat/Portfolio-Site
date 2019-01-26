@@ -19,8 +19,10 @@ body {
 h1, h2, h3, h4, h5 {
   margin: 0;
 }
- 
-header,main,footer{
+ p{
+ 	padding: 0 10px;
+ }
+.grid-container{
  	max-width: 960px;
  	margin: 0 auto;
  	min-width: 290px
@@ -28,6 +30,7 @@ header,main,footer{
 
 #header{
  	display: flex;
+ 	flex-direction: row;
     justify-content: space-between;
     padding: 1em 0.2em;
     border-bottom: 5px solid rgba(255, 165, 0, 0.82) ;
@@ -60,7 +63,7 @@ header,main,footer{
 margin-top: .8em;
 }
 
-#main_section h1{
+.title-2{
 	margin-left: .3em;
 	font-size: 2.4em;
 	color: #e7a32a;
