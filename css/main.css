@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5 {
 
 #header{
  	display: flex;
- 	flex-direction: row;
     justify-content: space-between;
     padding: 1em 0.2em;
     border-bottom: 5px solid rgba(255, 165, 0, 0.82) ;
